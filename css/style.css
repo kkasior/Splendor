@@ -1,0 +1,37 @@
+body{
+    background-image: url("../resources/background.jpg");
+}
+#openTag{
+    width: 200px;
+    lenght: 200px;
+    display: block;
+    padding: 0;
+}
+ul{
+    list-style: none;
+    font-size: x-large;
+}
+#Blue::before{
+    content: "•";
+    color: blue;
+}
+#Red::before{
+    content: "•";
+    color: red;
+}
+#Green::before{
+    content: "•";
+    color: green;
+}
+#White::before{
+    content: "•";
+    color: white;
+}
+#Gold::before{
+    content:"•";
+    color: gold;
+}
+#Brown::before{
+    content: "•";
+    color: saddlebrown;
+}
